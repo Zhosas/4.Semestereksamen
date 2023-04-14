@@ -21,3 +21,11 @@ nav button{
 	background: white;
 }
 
+nav button:hover{
+	background: rgba(214,214,214,1.00);
+}
+
+#aktivB{
+	background: green;
+	color: white;
+}
