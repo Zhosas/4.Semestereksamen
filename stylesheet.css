@@ -7,11 +7,18 @@ body{
 }
 
 header{
+	display: flex;
 	text-align: center;
+	justify-content: space-between;
+}
+
+header h1{
+	padding-left: 25px;
 }
 
 nav{
 	text-align: center;
+	padding: 25px;
 }
 
 nav button{
@@ -19,6 +26,7 @@ nav button{
 	padding: 5px;
 	border-style: none;
 	background: white;
+	font-size: 15px;
 }
 
 nav button:hover{
@@ -26,6 +34,6 @@ nav button:hover{
 }
 
 #aktivB{
-	background: green;
+	background: rgba(158,111,69,1.00);
 	color: white;
 }
