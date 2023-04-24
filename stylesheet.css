@@ -3,7 +3,9 @@
 
 body{
 	margin: 0px;
-	background: white;
+	background-image: url("Baggrund.png");
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 header{
