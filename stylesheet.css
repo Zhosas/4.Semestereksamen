@@ -3,20 +3,39 @@
 
 body{
 	margin: 0px;
-	background: rgba(172,243,251,1.00);
+	background-image: url("Baggrund.png");
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 header{
+	display: flex;
 	text-align: center;
+	justify-content: space-between;
+}
+
+header h1{
+	padding-left: 25px;
 }
 
 nav{
 	text-align: center;
+	padding: 25px;
 }
 
 nav button{
-	margin: 0px 5px;
+	margin: 0px;
 	padding: 5px;
 	border-style: none;
 	background: white;
+	font-size: 15px;
+}
+
+nav button:hover{
+	background: rgba(214,214,214,1.00);
+}
+
+#aktivB{
+	background: rgba(158,111,69,1.00);
+	color: white;
 }
