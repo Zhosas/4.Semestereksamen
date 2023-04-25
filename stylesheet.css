@@ -37,3 +37,26 @@ nav button:hover{
 #aktivB{
 	color: #2f618b;
 }
+
+footer{
+	background: white;
+	text-align: center;
+}
+
+.ftInfo{
+	display: grid;
+	justify-content: space-between;
+	grid-template-columns: auto auto auto;
+	gap: 10px;
+}
+
+.forside{
+	text-align: center;
+}
+
+.forIntro{
+	display: grid;
+	justify-content: space-between;
+	grid-template-columns: auto auto;
+	gap: 10px;
+}
