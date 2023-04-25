@@ -6,6 +6,7 @@ body{
 	background-image: url("Baggrund.png");
 	background-size: cover;
 	background-attachment: fixed;
+	font-family: "Open Sans";
 }
 
 header{
@@ -14,28 +15,25 @@ header{
 	justify-content: space-between;
 }
 
-header h1{
-	padding-left: 25px;
-}
-
 nav{
 	text-align: center;
-	padding: 25px;
+	margin: 30px 20px;
 }
 
 nav button{
 	margin: 0px;
-	padding: 5px;
+	padding: 10px 5px 0px;
 	border-style: none;
-	background: white;
-	font-size: 15px;
+	background: none;
+	font-size: 20px;
+	font-weight: 600;
 }
 
 nav button:hover{
-	background: rgba(214,214,214,1.00);
+	color: #2f618b;
+	cursor: pointer;
 }
 
 #aktivB{
-	background: rgba(158,111,69,1.00);
-	color: white;
+	color: #2f618b;
 }
