@@ -43,6 +43,7 @@ nav button:hover{
 footer{
 	background: white;
 	text-align: center;
+	margin: 100px 0px 0px;
 }
 
 footer a{
@@ -56,11 +57,16 @@ footer a{
 	grid-template-columns: auto auto auto;
 	gap: 10px;
 	margin: 0px 250px;
-	padding: 10px 25px;
+	padding: 10px 0px;
 }
 
 #ft1{
 	text-align: left;
+	width: 275px;
+}
+
+#ft3{
+	text-align: right;
 }
 
 .forside{
@@ -93,12 +99,13 @@ footer a{
 	border-radius: 30px;
 	font-size: 25px;
 	padding: 15px;
+	cursor: pointer;
 }
 
 #forIntro2{
 	background: white;
 	padding: 0px 25px;
-	border-radius: 10px;
+	border-radius: 50px;
 	width: 400px;
 }
 
@@ -111,46 +118,106 @@ footer a{
 	width: 390px;
 	height: 35px;
 	font-size: 15px;
+	border-radius: 10px;
+	border: 2px solid #A0A0A0;
+	background: #F3F3F3;
+	padding: 0px 5px;
 }
 
 #mail{
 	width: 390px;
 	height: 35px;
 	font-size: 15px;
+	border-radius: 10px;
+	border: 2px solid #A0A0A0;
+	background: #F3F3F3;
+	padding: 0px 5px;
 }
 
 #telNum{
 	width: 390px;
 	height: 35px;
 	font-size: 15px;
+	border-radius: 10px;
+	border: 2px solid #A0A0A0;
+	background: #F3F3F3;
+	padding: 0px 5px;
 }
 
 #besked{
 	width: 390px;
 	height: 75px;
 	font-size: 15px;
+	border-radius: 10px;
+	border: 2px solid #A0A0A0;
+	background: #F3F3F3;
+	padding: 0px 5px;
 }
 
 #forIntro2 button{
 	background: #A68876;
 	color: white;
+	font-size: 17px;
 	border: none;
-	border-radius: 15px;
-	padding: 6px;
+	border-radius: 20px;
+	padding: 10px;
 	margin: 10px 0px 25px;
+	cursor: pointer;
 }
 
-.forPunkt{
+.punkter{
 	display: grid;
 	justify-content: space-between;
 	grid-template-columns: auto auto auto;
 	gap: 10px;
-	margin: 150px 250px;
+	margin: 150px 250px 25px;
 }
 
-.forPunkt div{
-	width: 200px;
+.punkter div{
+	width: 250px;
+	height: 250px;
 	background: white;
 	padding: 25px 15px;
 	border-radius: 15px;
 }
+
+.punkter h2{
+	color: #A68876;
+}
+
+.forside button{
+	border: none;
+	border-radius: 25px;
+	background: #A68876;
+	color: white;
+	font-size: 20px;
+	padding: 15px;
+	margin: 50px 0px;
+	cursor: pointer;
+}
+
+.omOs{
+	text-align: center;
+}
+
+.omInfo{
+	margin: 0px 250px 100px;
+	display: grid;
+	justify-content: space-between;
+	grid-template-columns: auto auto;
+	gap: 10px;
+	background: white;
+	padding: 25px;
+	border-radius: 50px;
+}
+
+#omInfo1{
+	text-align: left;
+	width: 400px;
+}
+
+.omOs h1{
+	color: #3F3F3F;
+}
+
+
