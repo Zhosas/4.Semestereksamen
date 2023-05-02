@@ -151,7 +151,9 @@ footer a{
 	border-radius: 10px;
 	border: 2px solid #A0A0A0;
 	background: #F3F3F3;
-	padding: 0px 5px;
+	padding: 5px 5px;
+	resize: none;
+	font: "Open Sans";
 }
 
 #forIntro2 button{
@@ -219,5 +221,101 @@ footer a{
 .omOs h1{
 	color: #3F3F3F;
 }
+
+.kontakt{
+	text-align: center;
+}
+
+.kontaktInfo{
+	margin: 0px 250px 100px;
+	display: grid;
+	justify-content: space-between;
+	grid-template-columns: auto auto;
+	gap: 10px;
+	background: white;
+	padding: 25px;
+	border-radius: 50px;
+}
+
+#kontaktInfo1{
+	text-align: left;
+	width: 550px;
+}
+
+#navnK{
+	width: 450px;
+	height: 35px;
+	font-size: 15px;
+	border-radius: 10px;
+	border: 2px solid #A0A0A0;
+	background: #F3F3F3;
+	padding: 0px 5px;
+}
+
+#mailK{
+	width: 450px;
+	height: 35px;
+	font-size: 15px;
+	border-radius: 10px;
+	border: 2px solid #A0A0A0;
+	background: #F3F3F3;
+	padding: 0px 5px;
+}
+
+#telNumK{
+	width: 450px;
+	height: 35px;
+	font-size: 15px;
+	border-radius: 10px;
+	border: 2px solid #A0A0A0;
+	background: #F3F3F3;
+	padding: 0px 5px;
+}
+
+#beskedK{
+	width: 450px;
+	height: 75px;
+	font-size: 15px;
+	border-radius: 10px;
+	border: 2px solid #A0A0A0;
+	background: #F3F3F3;
+	padding: 5px 5px;
+	resize: none;
+	font: "Open Sans";
+}
+
+#kontaktInfo1 button{
+	background: #A68876;
+	color: white;
+	font-size: 17px;
+	border: none;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 5px 0px 25px;
+	cursor: pointer;
+}
+
+#kontaktInfo2{
+	text-align: left;
+	width: 450px;
+}
+
+#kontaktInfo2 p{
+	width: 400px;
+}
+
+#kI2Num{
+	color: #A68876;
+}
+
+#kI2Line{
+	color: #A68876;
+}
+
+#kI2Mail{
+	color: #A68876;
+}
+
+
 
 
