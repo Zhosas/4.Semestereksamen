@@ -71,6 +71,7 @@ footer a{
 
 .forside{
 	text-align: center;
+	margin-top: 100px;
 }
 
 .forIntro{
@@ -198,8 +199,116 @@ footer a{
 	cursor: pointer;
 }
 
+.bade{
+	text-align: center;
+	margin-top: 100px;
+}
+
+.badeSamling{
+	display: grid;
+	justify-content: space-between;
+	grid-template-columns: auto auto;
+	gap: 10px;
+	margin: 0px 250px;
+	background: white;
+}
+
+#badValg{
+	text-align: left;
+}
+
+#bIndOvn{
+	border: none;
+	border-radius: 15px;
+	padding: 10px;
+	background: #A68876;
+	color: white;
+}
+
+#bUdOvn{
+	border: none;
+	border-radius: 15px;
+	padding: 10px;
+	background: #A68876;
+	color: white;
+}
+
+#bBrunT{
+	border: none;
+	border-radius: 50px;
+	padding: 7.5px 10px;
+	background: #FDBC7B;
+	color: #FDBC7D;
+}
+
+#bSortT{
+	border: none;
+	border-radius: 50px;
+	padding: 7.5px 10px;
+	background: black;
+}
+
+#bKarH{
+	border: 0.5px solid #E5E5E5;
+	border-radius: 50px;
+	padding: 7.5px 10px;
+	background: white;
+	color: white;
+}
+
+#bKarS{
+	border: none;
+	border-radius: 50px;
+	padding: 7.5px 10px;
+	background: black;
+}
+
+#bKarG{
+	border: none;
+	border-radius: 50px;
+	padding: 7.5px 10px;
+	background: grey;
+	color: grey;
+}
+
+#bKarR{
+	border: none;
+	border-radius: 50px;
+	padding: 7.5px 10px;
+	background: red;
+	color: red;
+}
+
+.guides{
+	text-align: center;
+	margin-top: 100px;
+}
+
+.guidesTabs{
+	display: grid;
+	justify-content: space-around;
+	grid-template-columns: auto auto;
+	gap: 10px;
+	margin: 0px 250px;
+	background: white;
+	padding: 25px;
+}
+
+#guide1{
+	border: 1px solid #EFEFEF;
+	padding: 25px;
+	width: 250px;
+}
+
+#guide2{
+	border: 1px solid #EFEFEF;
+	padding: 25px;
+	width: 250px;
+}
+
 .omOs{
 	text-align: center;
+	margin-top: 100px;
 }
 
 .omInfo{
@@ -224,6 +333,7 @@ footer a{
 
 .kontakt{
 	text-align: center;
+	margin-top: 100px;
 }
 
 .kontaktInfo{
