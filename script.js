@@ -5,6 +5,10 @@ function indOvn() {
 	document.getElementById("bIndOvn").style.color = "#A68876";
 	document.getElementById("bUdOvn").style.background = "#A68876";
 	document.getElementById("bUdOvn").style.color = "white";
+	
+	var image = document.getElementById("bImg");
+	image.src = "Placeholdermand.png";
+	
 }
 
 function udOvn() {
@@ -12,6 +16,9 @@ function udOvn() {
 	document.getElementById("bUdOvn").style.color = "#A68876";
 	document.getElementById("bIndOvn").style.background = "#A68876";
 	document.getElementById("bIndOvn").style.color = "white";
+	
+	var image = document.getElementById("bImg");
+	image.src = "Baggrund.png";
 }
 
 function ingenD() {

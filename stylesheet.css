@@ -65,6 +65,15 @@ footer a{
 	width: 275px;
 }
 
+#ft2{
+	margin: 25px 0px;
+}
+
+#ft2 p{
+	display: inline-block;
+	margin: 0px 5px;
+}
+
 #ft3{
 	text-align: right;
 }
