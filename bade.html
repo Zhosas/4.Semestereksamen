@@ -5,6 +5,7 @@
 <title>Vildmarksbade | DitVildmarksbad</title>
 <meta name="Description" content="">
 <link rel="stylesheet" href="stylesheet.css">
+<script src="script.js"></script>
 </head>
 
 <body>
@@ -27,18 +28,24 @@
 			<div id="badValg">
 				<h2>Byg dit vildmarksbad til lige dit behov</h2>
 				<p>Vælg din type ovn:</p>
-				<button id="bIndOvn">Indvendig ovn</button>
-				<button id="bUdOvn">Udvendig ovn</button>
-				<p>Med eller uden klorovn:</p>
+				<button id="bIndOvn" onClick="indOvn()">Indvendig</button>
+				<button id="bUdOvn" onClick="udOvn()">Udvendig</button>
+				<br> <br>
 				<input type="checkbox" id="ovnCheck" name="ovn">
+				<label>Med eller uden klorovn</label>
+				<p>Vælg dine dyser:</p>
+				<button id="bIngenD" onClick="ingenD()">Ingen</button>
+				<button id="bLuftD" onClick="luftD()">Luftdyser</button>
+				<button id="bVandD" onClick="vandD()">Vanddyser</button>
+				<button id="bBeggeD" onClick="beggeD()">Begge</button>
 				<p>Vælg din farve træ:</p>
-				<button id="bBrunT">O</button>
-				<button id="bSortT">O</button>
+				<button id="bBrunT" onClick="brunTræ()">O</button>
+				<button id="bSortT" onClick="sortTræ()">O</button>
 				<p>Vælg din farve kar:</p>
-				<button id="bKarH">O</button>
-				<button id="bKarS">O</button>
-				<button id="bKarG">O</button>
-				<button id="bKarR">O</button>
+				<button id="bKarH" onclick="karHvid()">O</button>
+				<button id="bKarS" onclick="karSort()">O</button>
+				<button id="bKarG" onClick="karGrå()">O</button>
+				<button id="bKarR" onClick="karRød()">O</button>
 			</div>
 		</div>
 	</main>
