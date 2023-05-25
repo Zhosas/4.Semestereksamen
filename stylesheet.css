@@ -210,7 +210,7 @@ footer a{
 
 .bade{
 	text-align: center;
-	margin-top: 100px;
+	margin: 100px 0px 115px;
 }
 
 .badeSamling{
@@ -220,18 +220,21 @@ footer a{
 	gap: 10px;
 	margin: 0px 250px;
 	background: white;
+	border-radius: 50px;
+	height: 540px;
 }
 
 #badValg{
 	text-align: left;
+	padding: 0px 20px;
 }
 
 #bIndOvn{
 	border: 2px solid #A68876;
 	border-radius: 15px;
 	padding: 10px;
-	background: #FFFFFF;
-	color: #A68876;
+	background: #A68876;
+	color: white;
 	cursor: pointer;
 }
 
@@ -239,8 +242,8 @@ footer a{
 	border: 2px solid #A68876;
 	border-radius: 15px;
 	padding: 10px;
-	background: #A68876;
-	color: white;
+	background: #FFFFFF;
+	color: #A68876;
 	cursor: pointer;
 }
 

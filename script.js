@@ -1,16 +1,5 @@
 // JavaScript Document
 
-function indOvn() {
-	document.getElementById("bIndOvn").style.background = "white";
-	document.getElementById("bIndOvn").style.color = "#A68876";
-	document.getElementById("bUdOvn").style.background = "#A68876";
-	document.getElementById("bUdOvn").style.color = "white";
-	
-	var image = document.getElementById("bImg");
-	image.src = "Placeholdermand.png";
-	
-}
-
 function udOvn() {
 	document.getElementById("bUdOvn").style.background = "white";
 	document.getElementById("bUdOvn").style.color = "#A68876";
@@ -18,7 +7,18 @@ function udOvn() {
 	document.getElementById("bIndOvn").style.color = "white";
 	
 	var image = document.getElementById("bImg");
-	image.src = "Baggrund.png";
+	image.src = "Endelige/1U.png";
+}
+
+function indOvn() {
+	document.getElementById("bIndOvn").style.background = "white";
+	document.getElementById("bIndOvn").style.color = "#A68876";
+	document.getElementById("bUdOvn").style.background = "#A68876";
+	document.getElementById("bUdOvn").style.color = "white";
+	
+	var image = document.getElementById("bImg");
+	image.src = "Endelige/1I.png";
+	
 }
 
 function ingenD() {
