@@ -220,7 +220,7 @@ footer a{
 	gap: 10px;
 	margin: 0px 250px;
 	background: white;
-	border-radius: 50px;
+	border-radius: 30px;
 	height: 540px;
 }
 
@@ -353,18 +353,27 @@ footer a{
 	margin: 0px 250px;
 	background: white;
 	padding: 25px;
+	border-radius: 30px;
 }
 
 #guide1{
 	border: 1px solid #EFEFEF;
-	padding: 25px;
+	border-radius: 30px;
 	width: 250px;
+}
+
+#guide1 p{
+	padding-bottom: 10px;
 }
 
 #guide2{
 	border: 1px solid #EFEFEF;
-	padding: 25px;
+	border-radius: 30px;
 	width: 250px;
+}
+
+#guide2 p{
+	padding-bottom: 10px;
 }
 
 .omOs{
@@ -394,7 +403,7 @@ footer a{
 
 .kontakt{
 	text-align: center;
-	margin-top: 100px;
+	margin: 100px 0px 162px;
 }
 
 .kontaktInfo{
@@ -405,7 +414,7 @@ footer a{
 	gap: 10px;
 	background: white;
 	padding: 25px;
-	border-radius: 50px;
+	border-radius: 30px;
 }
 
 #kontaktInfo1{
