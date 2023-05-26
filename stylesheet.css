@@ -409,7 +409,7 @@ footer a{
 .kontaktInfo{
 	margin: 0px 250px 100px;
 	display: grid;
-	justify-content: space-between;
+	justify-content: space-around;
 	grid-template-columns: auto auto;
 	gap: 10px;
 	background: white;
@@ -477,7 +477,7 @@ footer a{
 
 #kontaktInfo2{
 	text-align: left;
-	width: 450px;
+	width: 300px;
 }
 
 #kontaktInfoR{
