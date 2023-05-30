@@ -233,8 +233,8 @@ footer a{
 	border: 2px solid #A68876;
 	border-radius: 15px;
 	padding: 10px;
-	background: #A68876;
-	color: white;
+	background: #FFFFFF;
+	color: #A68876;
 	cursor: pointer;
 }
 
@@ -242,8 +242,8 @@ footer a{
 	border: 2px solid #A68876;
 	border-radius: 15px;
 	padding: 10px;
-	background: #FFFFFF;
-	color: #A68876;
+	background: #A68876;
+	color: #FFFFFF;
 	cursor: pointer;
 }
 
@@ -255,8 +255,8 @@ footer a{
 	border: 2px solid #A68876;
 	border-radius: 15px;
 	padding: 10px;
-	background: #FFFFFF;
-	color: #A68876;
+	background: #A68876;
+	color: #FFFFFF;
 	cursor: pointer;
 }
 
@@ -264,8 +264,8 @@ footer a{
 	border: 2px solid #A68876;
 	border-radius: 15px;
 	padding: 10px;
-	background: #A68876;
-	color: white;
+	background: #FFFFFF;
+	color: #A68876;
 	cursor: pointer;
 }
 
@@ -273,8 +273,8 @@ footer a{
 	border: 2px solid #A68876;
 	border-radius: 15px;
 	padding: 10px;
-	background: #A68876;
-	color: white;
+	background: #FFFFFF;
+	color: #A68876;
 	cursor: pointer;
 }
 
@@ -282,8 +282,8 @@ footer a{
 	border: 2px solid #A68876;
 	border-radius: 15px;
 	padding: 10px;
-	background: #A68876;
-	color: white;
+	background: #FFFFFF;
+	color: #A68876;
 	cursor: pointer;
 	margin: 2px;
 }
@@ -384,7 +384,7 @@ footer a{
 .omInfo{
 	margin: 0px 250px 100px;
 	display: grid;
-	justify-content: space-between;
+	justify-content: space-around;
 	grid-template-columns: auto auto;
 	gap: 10px;
 	background: white;
