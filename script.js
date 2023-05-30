@@ -30,6 +30,13 @@ function ingenD() {
 	document.getElementById("bVandD").style.color = "white";
 	document.getElementById("bBeggeD").style.background = "#A68876";
 	document.getElementById("bBeggeD").style.color = "white";
+	
+	var image = document.getElementById("bImg");
+	if(image.src.match("Endelige/1U.png") || image.src.match("Endelige/2UL.png") || image.src.match("Endelige/2UV.png") || image.src.match("Endelige/2UA.png")){
+		image.src = "Endelige/2UU.png";
+	} else if (image.src.match("Endelige/1I") || image.src.match("Endelige/2IL.png") || image.src.match("Endelige/2IV.png") || image.src.match("Endelige/2IA.png")){
+		image.src = "Endelige/2IU.png";
+	}
 }
 
 function luftD() {
@@ -41,6 +48,13 @@ function luftD() {
 	document.getElementById("bVandD").style.color = "white";
 	document.getElementById("bBeggeD").style.background = "#A68876";
 	document.getElementById("bBeggeD").style.color = "white";
+	
+	var image = document.getElementById("bImg");
+	if(image.src.match("Endelige/1U.png") || image.src.match("Endelige/2UU.png") || image.src.match("Endelige/2UV.png") || image.src.match("Endelige/2UA.png")){
+		image.src = "Endelige/2UL.png";
+	} else if (image.src.match("Endelige/1I") || image.src.match("Endelige/2IU.png") || image.src.match("Endelige/2IV.png") || image.src.match("Endelige/2IA.png")){
+		image.src = "Endelige/2IL.png";
+	}
 }
 
 function vandD() {
@@ -52,6 +66,13 @@ function vandD() {
 	document.getElementById("bVandD").style.color = "#A68876";
 	document.getElementById("bBeggeD").style.background = "#A68876";
 	document.getElementById("bBeggeD").style.color = "white";
+	
+	var image = document.getElementById("bImg");
+	if(image.src.match("Endelige/1U.png") || image.src.match("Endelige/2UU.png") || image.src.match("Endelige/2UL.png") || image.src.match("Endelige/2UA.png")){
+		image.src = "Endelige/2UV.png";
+	} else if (image.src.match("Endelige/1I") || image.src.match("Endelige/2IU.png") || image.src.match("Endelige/2IL.png") || image.src.match("Endelige/2IA.png")){
+		image.src = "Endelige/2IV.png";
+	}
 }
 
 function beggeD() {
@@ -63,16 +84,37 @@ function beggeD() {
 	document.getElementById("bVandD").style.color = "white";
 	document.getElementById("bBeggeD").style.background = "white";
 	document.getElementById("bBeggeD").style.color = "#A68876";
+	
+	var image = document.getElementById("bImg");
+	if(image.src.match("Endelige/1U.png") || image.src.match("Endelige/2UU.png") || image.src.match("Endelige/2UL.png") || image.src.match("Endelige/2UV.png")){
+		image.src = "Endelige/2UA.png";
+	} else if (image.src.match("Endelige/1I") || image.src.match("Endelige/2IU.png") || image.src.match("Endelige/2IL.png") || image.src.match("Endelige/2IV.png")){
+		image.src = "Endelige/2IA.png";
+	}
 }
 
 function brunTræ() {
 	document.getElementById("bBrunT").style.border = "2px solid #1D5FE1";
 	document.getElementById("bSortT").style.border = "2px solid black";
+	
+	var image = document.getElementById("bImg");
+	if(image.src.match("Endelige/1U.png") || image.src.match("Endelige/2UU.png") || image.src.match("Endelige/2UL.png") || image.src.match("Endelige/2UV.png") || image.src.match("Endelige/2UA.png") || image.src.match("Endelige/3US.png")){
+		image.src = "Endelige/3UB.png";
+	} else if (image.src.match("Endelige/1I") || image.src.match("Endelige/2IU.png") || image.src.match("Endelige/2IL.png") || image.src.match("Endelige/2IV.png") || image.src.match("Endelige/2IA.png") || image.src.match("Endelige/3IS")){
+		image.src = "Endelige/3IB.png";
+	}
 }
 
 function sortTræ() {
 	document.getElementById("bBrunT").style.border = "2px solid #FDBC7B";
 	document.getElementById("bSortT").style.border = "2px solid #1D5FE1";
+	
+	var image = document.getElementById("bImg");
+	if(image.src.match("Endelige/1U.png") || image.src.match("Endelige/2UU.png") || image.src.match("Endelige/2UL.png") || image.src.match("Endelige/2UV.png") || image.src.match("Endelige/2UA.png") || image.src.match("Endelige/3UB.png")){
+		image.src = "Endelige/3US.png";
+	} else if (image.src.match("Endelige/1I") || image.src.match("Endelige/2IU.png") || image.src.match("Endelige/2IL.png") || image.src.match("Endelige/2IV.png") || image.src.match("Endelige/2IA.png") || image.src.match("Endelige/3IB")){
+		image.src = "Endelige/3IS.png";
+	}
 }
 
 function karHvid() {
