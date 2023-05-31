@@ -228,6 +228,10 @@ footer a{
 	height: 540px;
 }
 
+.badeSamling img {
+	border-radius: 30px 0px 0px 30px;
+}
+
 #badValg{
 	text-align: left;
 	padding: 0px 20px;
@@ -504,133 +508,148 @@ footer a{
 
 @media screen and (max-width: 1440px){
 	
-.bade{
-	text-align: center;
-	margin: 100px 0px 115px;
-}
+	.bade{
+		text-align: center;
+		margin: 100px 0px 115px;
+	}
 
-.badeSamling{
-	display: block;
-	margin: 0px 250px;
-	background: white;
-	border-radius: 30px;
-}
+	.badeSamling{
+		display: grid;
+		grid-template-columns: auto;
+		gap: 10px;
+		margin: 0px 250px;
+		background: white;
+		border-radius: 30px;
+		height: auto;
+	}
 
-#badValg{
-	text-align: left;
-	padding: 0px 20px;
-}
+	.badeSamling img{
+		width: 940px;
+		height: 529px;
+		border-radius: 30px 30px 0px 0px;
+	}
 
-#bIndOvn{
-	border: 2px solid #A68876;
-	border-radius: 15px;
-	padding: 10px;
-	background: #A68876;
-	color: white;
-	cursor: pointer;
-}
+	#badValg{
+		text-align: left;
+		padding: 0px 20px;
+	}
 
-#bUdOvn{
-	border: 2px solid #A68876;
-	border-radius: 15px;
-	padding: 10px;
-	background: #FFFFFF;
-	color: #A68876;
-	cursor: pointer;
-}
+	#badValgSamling{
+		display: grid;
+		grid-template-columns: auto auto;
+		padding-bottom: 25px;
+	}
+	
+	#bIndOvn{
+		border: 2px solid #A68876;
+		border-radius: 15px;
+		padding: 10px;
+		background: #A68876;
+		color: white;
+		cursor: pointer;
+	}
 
-#ovnCheck{
-	cursor: pointer;
-}
+	#bUdOvn{
+		border: 2px solid #A68876;
+		border-radius: 15px;
+		padding: 10px;
+		background: #FFFFFF;
+		color: #A68876;
+		cursor: pointer;
+	}
 
-#bIngenD{
-	border: 2px solid #A68876;
-	border-radius: 15px;
-	padding: 10px;
-	background: #FFFFFF;
-	color: #A68876;
-	cursor: pointer;
-}
+	#ovnCheck{
+		cursor: pointer;
+	}
 
-#bLuftD{
-	border: 2px solid #A68876;
-	border-radius: 15px;
-	padding: 10px;
-	background: #A68876;
-	color: white;
-	cursor: pointer;
-}
+	#bIngenD{
+		border: 2px solid #A68876;
+		border-radius: 15px;
+		padding: 10px;
+		background: #FFFFFF;
+		color: #A68876;
+		cursor: pointer;
+	}
 
-#bVandD{
-	border: 2px solid #A68876;
-	border-radius: 15px;
-	padding: 10px;
-	background: #A68876;
-	color: white;
-	cursor: pointer;
-}
+	#bLuftD{
+		border: 2px solid #A68876;
+		border-radius: 15px;
+		padding: 10px;
+		background: #A68876;
+		color: white;
+		cursor: pointer;
+	}
 
-#bBeggeD{
-	border: 2px solid #A68876;
-	border-radius: 15px;
-	padding: 10px;
-	background: #A68876;
-	color: white;
-	cursor: pointer;
-	margin: 2px;
-}
+	#bVandD{
+		border: 2px solid #A68876;
+		border-radius: 15px;
+		padding: 10px;
+		background: #A68876;
+		color: white;
+		cursor: pointer;
+	}
 
-#bBrunT{
-	border: 2px solid #1D5FE1;
-	border-radius: 50px;
-	padding: 7.5px 10px;
-	background: #FDBC7B;
-	color: #FDBC7D;
-	cursor: pointer;
-}
+	#bBeggeD{
+		border: 2px solid #A68876;
+		border-radius: 15px;
+		padding: 10px;
+		background: #A68876;
+		color: white;
+		cursor: pointer;
+		margin: 2px;
+	}
 
-#bSortT{
-	border: 2px solid black;
-	border-radius: 50px;
-	padding: 7.5px 10px;
-	background: black;
-	cursor: pointer;
-}
+	#bBrunT{
+		border: 2px solid #1D5FE1;
+		border-radius: 50px;
+		padding: 7.5px 10px;
+		background: #FDBC7B;
+		color: #FDBC7D;
+		cursor: pointer;
+	}
 
-#bKarH{
-	border: 2px solid #1D5FE1;
-	border-radius: 50px;
-	padding: 7.5px 10px;
-	background: white;
-	color: white;
-	cursor: pointer;
-}
+	#bSortT{
+		border: 2px solid black;
+		border-radius: 50px;
+		padding: 7.5px 10px;
+		background: black;
+		cursor: pointer;
+	}
 
-#bKarS{
-	border: 2px solid black;
-	border-radius: 50px;
-	padding: 7.5px 10px;
-	background: black;
-	cursor: pointer;
-}
+	#bKarH{
+		border: 2px solid #1D5FE1;
+		border-radius: 50px;
+		padding: 7.5px 10px;
+		background: white;
+		color: white;
+		cursor: pointer;
+	}
 
-#bKarG{
-	border: 2px solid grey;
-	border-radius: 50px;
-	padding: 7.5px 10px;
-	background: grey;
-	color: grey;
-	cursor: pointer;
-}
+	#bKarS{
+		border: 2px solid black;
+		border-radius: 50px;
+		padding: 7.5px 10px;
+		background: black;
+		cursor: pointer;
+	}
 
-#bKarR{
-	border: 2px solid #A12A2C;
-	border-radius: 50px;
-	padding: 7.5px 10px;
-	background: #A12A2C;
-	color: #A12A2C;
-	cursor: pointer;
-}
+	#bKarG{
+		border: 2px solid grey;
+		border-radius: 50px;
+		padding: 7.5px 10px;
+		background: grey;
+		color: grey;
+		cursor: pointer;
+	}
+
+	#bKarR{
+		border: 2px solid #A12A2C;
+		border-radius: 50px;
+		padding: 7.5px 10px;
+		background: #A12A2C;
+		color: #A12A2C;
+		cursor: pointer;
+	}
 	
 }
 
