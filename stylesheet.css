@@ -1168,10 +1168,10 @@ footer a{
 
 @media screen and (max-width: 425px){
 	header{
-		display: flex;
+		display: block;
 		text-align: center;
 		justify-content: space-between;
-		margin: 0px 125px;
+		margin: 0px 50px;
 	}
 
 	header img{
@@ -1181,12 +1181,12 @@ footer a{
 
 	nav{
 		text-align: center;
-		margin: 30px 0px 0px;
+		margin: 5px 0px 0px;
 	}
 
 	nav button{
 		margin: 0px;
-		padding: 10px 5px 0px;
+		padding: 5px 5px 0px;
 		border-style: none;
 		background: none;
 		font-size: 20px;
@@ -1217,14 +1217,14 @@ footer a{
 	.ftInfo{
 		display: grid;
 		justify-content: space-between;
-		grid-template-columns: auto auto auto;
+		grid-template-columns: auto;
 		gap: 10px;
-		margin: 0px 125px;
+		margin: 0px 50px;
 		padding: 10px 0px;
 	}
 
 	#ft1{
-		text-align: left;
+		text-align: center;
 		width: 275px;
 	}
 
@@ -1249,10 +1249,10 @@ footer a{
 	.forIntro{
 		display: grid;
 		justify-content: space-between;
-		grid-template-columns: auto auto;
+		grid-template-columns: auto;
 		gap: 10px;
 		text-align: left;
-		margin: 20px 125px;
+		margin: 20px 50px;
 	}
 
 	#forIntro1 h1{
@@ -1270,7 +1270,7 @@ footer a{
 		color: white;
 		border: none;
 		border-radius: 30px;
-		font-size: 22.5px;
+		font-size: 19px;
 		padding: 15px;
 		cursor: pointer;
 	}
@@ -1279,7 +1279,7 @@ footer a{
 		background: white;
 		padding: 0px 25px;
 		border-radius: 30px;
-		width: 350px;
+		width: 250px;
 	}
 
 	#forIntro2 p{
@@ -1288,7 +1288,7 @@ footer a{
 	}
 
 	#navn{
-		width: 335px;
+		width: 230px;
 		height: 35px;
 		font-size: 15px;
 		border-radius: 10px;
@@ -1298,7 +1298,7 @@ footer a{
 	}
 
 	#mail{
-		width: 335px;
+		width: 230px;
 		height: 35px;
 		font-size: 15px;
 		border-radius: 10px;
@@ -1308,7 +1308,7 @@ footer a{
 	}
 
 	#telNum{
-		width: 335px;
+		width: 230px;
 		height: 35px;
 		font-size: 15px;
 		border-radius: 10px;
@@ -1318,7 +1318,7 @@ footer a{
 	}
 
 	#besked{
-		width: 335px;
+		width: 230px;
 		height: 85px;
 		font-size: 15px;
 		border-radius: 10px;
@@ -1343,9 +1343,9 @@ footer a{
 	.punkter{
 		display: grid;
 		justify-content: space-between;
-		grid-template-columns: auto auto auto;
-		gap: 10px;
-		margin: 150px 125px 25px;
+		grid-template-columns: auto;
+		gap: 25px;
+		margin: 100px 85px 25px;
 	}
 
 	.punkter div{
@@ -1517,9 +1517,9 @@ footer a{
 	.guidesTabs{
 		display: grid;
 		justify-content: space-around;
-		grid-template-columns: auto auto;
-		gap: 10px;
-		margin: 0px 125px;
+		grid-template-columns: auto;
+		gap: 25px;
+		margin: 0px 50px;
 		background: white;
 		padding: 25px;
 		border-radius: 30px;
@@ -1551,10 +1551,10 @@ footer a{
 	}
 
 	.omInfo{
-		margin: 0px 125px 100px;
+		margin: 0px 50px 100px;
 		display: grid;
 		justify-content: space-around;
-		grid-template-columns: auto auto;
+		grid-template-columns: auto;
 		gap: 10px;
 		background: white;
 		padding: 25px;
@@ -1569,7 +1569,7 @@ footer a{
 
 	#omInfo1{
 		text-align: left;
-		width: 400px;
+		width: 255px;
 	}
 
 	.omOs h1{
@@ -1667,7 +1667,7 @@ footer a{
 	}
 
 	#kontaktInfoM{
-		width: 300px;
+		width: 250px;
 	}
 
 	#kI2Mail{
