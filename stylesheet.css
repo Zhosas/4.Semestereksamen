@@ -438,7 +438,7 @@ footer a{
 	grid-template-columns: auto auto;
 	gap: 10px;
 	background: white;
-	padding: 25px;
+	padding: 25px 30px;
 	border-radius: 30px;
 }
 
