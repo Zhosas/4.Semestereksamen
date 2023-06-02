@@ -369,9 +369,9 @@ footer a{
 }
 
 #guide1{
-	border: 1px solid #EFEFEF;
-	border-radius: 30px;
-	width: 250px;
+	border: 2px solid lightgrey;
+	border-radius: 32px;
+	width: 400px;
 }
 
 #guide1 p{
@@ -379,9 +379,9 @@ footer a{
 }
 
 #guide2{
-	border: 1px solid #EFEFEF;
-	border-radius: 30px;
-	width: 250px;
+	border: 2px solid lightgrey;
+	border-radius: 32px;
+	width: 400px;
 }
 
 #guide2 p{
@@ -550,7 +550,7 @@ footer a{
 
 	#badValgSamling{
 		display: grid;
-		grid-template-columns: auto auto;
+		grid-template-columns: auto auto auto auto;
 		padding-bottom: 25px;
 	}
 	
@@ -574,6 +574,7 @@ footer a{
 
 	#ovnCheck{
 		cursor: pointer;
+		margin-top: 15px;
 	}
 
 	#bIngenD{
