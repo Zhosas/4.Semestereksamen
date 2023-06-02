@@ -84,7 +84,7 @@ footer a{
 
 .forside{
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 .forIntro{
@@ -125,7 +125,7 @@ footer a{
 
 #forIntro2 p{
 	font-size: 25px;
-	color: #a68876;
+	color: #3f3f3f;
 }
 
 #navn{
@@ -195,6 +195,7 @@ footer a{
 	background: white;
 	padding: 25px 15px;
 	border-radius: 30px;
+	color: #3f3f3f;
 }
 
 .punkter h2{
@@ -214,7 +215,7 @@ footer a{
 
 .bade{
 	text-align: center;
-	margin: 100px 0px 115px;
+	margin: 50px 0px 115px;
 }
 
 .badeSamling{
@@ -257,6 +258,7 @@ footer a{
 
 #ovnCheck{
 	cursor: pointer;
+	margin-top: 15px;
 }
 
 #bIngenD{
@@ -350,7 +352,7 @@ footer a{
 
 .guides{
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 #guidesA{
@@ -358,6 +360,7 @@ footer a{
 	background: white;
 	padding: 10px 25px;
 	border-radius: 30px;
+	color: #3f3f3f;
 }
 
 .guidesTabs{
@@ -372,6 +375,7 @@ footer a{
 	border: 2px solid lightgrey;
 	border-radius: 32px;
 	width: 400px;
+	color: #3f3f3f;
 }
 
 #guide1 p{
@@ -382,6 +386,7 @@ footer a{
 	border: 2px solid lightgrey;
 	border-radius: 32px;
 	width: 400px;
+	color: #3f3f3f;
 }
 
 #guide2 p{
@@ -390,7 +395,7 @@ footer a{
 
 .omOs{
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 .omInfo{
@@ -402,6 +407,7 @@ footer a{
 	background: white;
 	padding: 25px;
 	border-radius: 30px;
+	color: #3f3f3f;
 }
 
 .omInfo img{
@@ -421,7 +427,7 @@ footer a{
 
 .kontakt{
 	text-align: center;
-	margin: 100px 0px 162px;
+	margin: 50px 0px 162px;
 }
 
 .kontaktInfo{
@@ -501,6 +507,7 @@ footer a{
 #kontaktInfoR{
 	width: 300px;
 	border-bottom: 2px solid #A68876;
+	color: #3f3f3f;
 }
 
 #kI2Num{
@@ -509,6 +516,7 @@ footer a{
 
 #kontaktInfoM{
 	width: 300px;
+	color: #3f3f3f;
 }
 
 #kI2Mail{
@@ -520,7 +528,7 @@ footer a{
 	
 	.bade{
 		text-align: center;
-		margin: 100px 0px 115px;
+		margin: 50px 0px 115px;
 	}
 
 	.badeSamling{
@@ -745,7 +753,7 @@ footer a{
 
 	.forside{
 		text-align: center;
-		margin-top: 100px;
+		margin-top: 50px;
 	}
 
 	.forIntro{
@@ -875,7 +883,7 @@ footer a{
 
 	.bade{
 		text-align: center;
-		margin: 100px 0px 115px;
+		margin: 50px 0px 115px;
 	}
 
 	.badeSamling{
@@ -920,6 +928,7 @@ footer a{
 
 	#ovnCheck{
 		cursor: pointer;
+		margin-top: 15px;
 	}
 
 	#bIngenD{
@@ -1013,7 +1022,7 @@ footer a{
 
 	.guides{
 		text-align: center;
-		margin-top: 100px;
+		margin-top: 50px;
 	}	
 
 	.guidesTabs{
@@ -1049,7 +1058,7 @@ footer a{
 
 	.omOs{
 		text-align: center;
-		margin-top: 100px;
+		margin-top: 50px;
 	}
 
 	.omInfo{
@@ -1080,7 +1089,7 @@ footer a{
 
 	.kontakt{
 		text-align: center;
-		margin: 100px 0px 162px;
+		margin: 50px 0px 162px;
 	}
 
 	.kontaktInfo{
@@ -1252,7 +1261,7 @@ footer a{
 
 	.forside{
 		text-align: center;
-		margin-top: 100px;
+		margin-top: 50px;
 	}
 
 	.forIntro{
@@ -1382,7 +1391,7 @@ footer a{
 
 	.bade{
 		text-align: center;
-		margin: 75px 0px 115px;
+		margin: 50px 0px 115px;
 	}
 
 	.badeSamling{
@@ -1432,6 +1441,7 @@ footer a{
 
 	#ovnCheck{
 		cursor: pointer;
+		margin-top: 15px;
 	}
 
 	#bIngenD{
@@ -1525,7 +1535,7 @@ footer a{
 
 	.guides{
 		text-align: center;
-		margin-top: 100px;
+		margin-top: 50px;
 	}	
 
 	.guidesTabs{
@@ -1561,7 +1571,7 @@ footer a{
 
 	.omOs{
 		text-align: center;
-		margin-top: 100px;
+		margin-top: 50px;
 	}
 
 	.omInfo{
@@ -1592,7 +1602,7 @@ footer a{
 
 	.kontakt{
 		text-align: center;
-		margin: 100px 0px 162px;
+		margin: 50px 0px 162px;
 	}
 
 	.kontaktInfo{
