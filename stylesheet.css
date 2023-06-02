@@ -353,15 +353,19 @@ footer a{
 	margin-top: 100px;
 }
 
+#guidesA{
+	margin: 0px 250px;
+	background: white;
+	padding: 10px 25px;
+	border-radius: 30px;
+}
+
 .guidesTabs{
 	display: grid;
 	justify-content: space-around;
 	grid-template-columns: auto auto;
 	gap: 10px;
-	margin: 0px 250px;
-	background: white;
-	padding: 25px;
-	border-radius: 30px;
+	padding-bottom: 25px;
 }
 
 #guide1{
@@ -522,7 +526,7 @@ footer a{
 	.badeSamling{
 		display: grid;
 		grid-template-columns: auto;
-		gap: 10px;
+		gap: 0px;
 		margin: 0px 250px;
 		background: white;
 		border-radius: 30px;
@@ -538,6 +542,10 @@ footer a{
 	#badValg{
 		text-align: left;
 		padding: 0px 20px;
+	}
+	
+	#badValg h2{
+		margin: 10px 0px 5px;
 	}
 
 	#badValgSamling{
