@@ -215,7 +215,7 @@ footer a{
 
 .bade{
 	text-align: center;
-	margin: 50px 0px 115px;
+	margin: 50px 0px 165px;
 }
 
 .badeSamling{
@@ -353,10 +353,11 @@ footer a{
 .guides{
 	text-align: center;
 	margin-top: 50px;
+	margin-bottom: 245px;
 }
 
 #guidesA{
-	margin: 0px 250px;
+	margin: 0px 500px;
 	background: white;
 	padding: 10px 25px;
 	border-radius: 30px;
@@ -399,7 +400,7 @@ footer a{
 }
 
 .omInfo{
-	margin: 0px 250px 100px;
+	margin: 0px 500px 100px;
 	display: grid;
 	justify-content: space-around;
 	grid-template-columns: auto auto;
@@ -427,11 +428,11 @@ footer a{
 
 .kontakt{
 	text-align: center;
-	margin: 50px 0px 162px;
+	margin: 50px 0px 212.5px;
 }
 
 .kontaktInfo{
-	margin: 0px 250px 100px;
+	margin: 0px 500px 100px;
 	display: grid;
 	justify-content: space-around;
 	grid-template-columns: auto auto;
