@@ -121,6 +121,7 @@ footer a{
 	padding: 0px 25px;
 	border-radius: 30px;
 	width: 350px;
+	margin-bottom: 100px;
 }
 
 #forIntro2 p{
@@ -186,7 +187,7 @@ footer a{
 	justify-content: space-between;
 	grid-template-columns: auto auto auto;
 	gap: 10px;
-	margin: 150px 250px 25px;
+	margin: 50px 250px 25px;
 }
 
 .punkter div{
@@ -238,6 +239,10 @@ footer a{
 	padding: 0px 20px;
 }
 
+#badValg h2{
+	
+}
+
 #bIndOvn{
 	border: 2px solid #A68876;
 	border-radius: 15px;
@@ -245,6 +250,7 @@ footer a{
 	background: #FFFFFF;
 	color: #A68876;
 	cursor: pointer;
+	margin-top: -10px;
 }
 
 #bUdOvn{
@@ -254,11 +260,13 @@ footer a{
 	background: #A68876;
 	color: #FFFFFF;
 	cursor: pointer;
+	margin-top: -10px;
 }
 
 #ovnCheck{
 	cursor: pointer;
 	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 #bIngenD{
@@ -268,6 +276,8 @@ footer a{
 	background: #A68876;
 	color: #FFFFFF;
 	cursor: pointer;
+	margin-top: -10px;
+	margin-bottom: 15px;
 }
 
 #bLuftD{
@@ -277,6 +287,8 @@ footer a{
 	background: #FFFFFF;
 	color: #A68876;
 	cursor: pointer;
+	margin-top: -10px;
+	margin-bottom: 15px;
 }
 
 #bVandD{
@@ -286,6 +298,8 @@ footer a{
 	background: #FFFFFF;
 	color: #A68876;
 	cursor: pointer;
+	margin-top: -10px;
+	margin-bottom: 15px;
 }
 
 #bBeggeD{
@@ -296,6 +310,8 @@ footer a{
 	color: #A68876;
 	cursor: pointer;
 	margin: 2px;
+	margin-top: -10px;
+	margin-bottom: 15px;
 }
 
 #bBrunT{
@@ -305,6 +321,8 @@ footer a{
 	background: #FDBC7B;
 	color: #FDBC7D;
 	cursor: pointer;
+	margin-top: -10px;
+	margin-bottom: 15px;
 }
 
 #bSortT{
@@ -313,6 +331,8 @@ footer a{
 	padding: 7.5px 10px;
 	background: black;
 	cursor: pointer;
+	margin-top: -10px;
+	margin-bottom: 15px;
 }
 
 #bKarH{
@@ -322,6 +342,7 @@ footer a{
 	background: white;
 	color: white;
 	cursor: pointer;
+	margin-top: -10px;
 }
 
 #bKarS{
@@ -330,15 +351,17 @@ footer a{
 	padding: 7.5px 10px;
 	background: black;
 	cursor: pointer;
+	margin-top: -10px;
 }
 
 #bKarG{
-	border: 2px solid grey;
+	border: 2px solid #515E71;
 	border-radius: 50px;
 	padding: 7.5px 10px;
-	background: grey;
-	color: grey;
+	background: #515E71;
+	color: #515E71;
 	cursor: pointer;
+	margin-top: -10px;
 }
 
 #bKarR{
@@ -348,6 +371,7 @@ footer a{
 	background: #A12A2C;
 	color: #A12A2C;
 	cursor: pointer;
+	margin-top: -10px;
 }
 
 .guides{
@@ -658,11 +682,11 @@ footer a{
 	}
 
 	#bKarG{
-		border: 2px solid grey;
+		border: 2px solid #515E71;
 		border-radius: 50px;
 		padding: 7.5px 10px;
-		background: grey;
-		color: grey;
+		background: #515E71;
+		color: #515E71;
 		cursor: pointer;
 	}
 
@@ -1004,11 +1028,11 @@ footer a{
 	}
 
 	#bKarG{
-		border: 2px solid grey;
+		border: 2px solid #515E71;
 		border-radius: 50px;
 		padding: 7.5px 10px;
-		background: grey;
-		color: grey;
+		background: #515E71;
+		color: #515E71;
 		cursor: pointer;
 	}
 
@@ -1517,11 +1541,11 @@ footer a{
 	}
 
 	#bKarG{
-		border: 2px solid grey;
+		border: 2px solid #515E71;
 		border-radius: 50px;
 		padding: 7.5px 10px;
-		background: grey;
-		color: grey;
+		background: #515E71;
+		color: #515E71;
 		cursor: pointer;
 	}
 

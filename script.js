@@ -148,28 +148,28 @@ function sortTræ() {
 function karHvid() {
 	document.getElementById("bKarH").style.border = "2px solid #1D5FE1";
 	document.getElementById("bKarS").style.border = "2px solid black";
-	document.getElementById("bKarG").style.border = "2px solid grey";
+	document.getElementById("bKarG").style.border = "2px solid #515E71";
 	document.getElementById("bKarR").style.border = "2px solid #A12A2C";
 }
 
 function karSort() {
-	document.getElementById("bKarH").style.border = "2px solid #EAEAEA";
+	document.getElementById("bKarH").style.border = "2px solid lightgrey";
 	document.getElementById("bKarS").style.border = "2px solid #1D5FE1";
-	document.getElementById("bKarG").style.border = "2px solid grey";
+	document.getElementById("bKarG").style.border = "2px solid #515E71";
 	document.getElementById("bKarR").style.border = "2px solid #A12A2C";
 }
 
 function karGrå() {
-	document.getElementById("bKarH").style.border = "2px solid #EAEAEA";
+	document.getElementById("bKarH").style.border = "2px solid lightgrey";
 	document.getElementById("bKarS").style.border = "2px solid black";
 	document.getElementById("bKarG").style.border = "2px solid #1D5FE1";
 	document.getElementById("bKarR").style.border = "2px solid #A12A2C";
 }
 
 function karRød() {
-	document.getElementById("bKarH").style.border = "2px solid #EAEAEA";
+	document.getElementById("bKarH").style.border = "2px solid lightgrey";
 	document.getElementById("bKarS").style.border = "2px solid black";
-	document.getElementById("bKarG").style.border = "2px solid grey";
+	document.getElementById("bKarG").style.border = "2px solid #515E71";
 	document.getElementById("bKarR").style.border = "2px solid #1D5FE1";
 }
 
