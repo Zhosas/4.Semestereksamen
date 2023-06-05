@@ -237,10 +237,7 @@ footer a{
 #badValg{
 	text-align: left;
 	padding: 0px 20px;
-}
-
-#badValg h2{
-	
+	color: #3f3f3f;
 }
 
 #bIndOvn{
@@ -469,6 +466,7 @@ footer a{
 #kontaktInfo1{
 	text-align: left;
 	width: 550px;
+	color: #3f3f3f;
 }
 
 #navnK{
