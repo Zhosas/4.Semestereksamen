@@ -548,14 +548,8 @@ footer a{
 	color: #A68876;
 }
 
-
 @media screen and (max-width: 1440px){
 	
-	.bade{
-		text-align: center;
-		margin: 50px 0px 115px;
-	}
-
 	.badeSamling{
 		display: grid;
 		grid-template-columns: auto;
@@ -572,11 +566,6 @@ footer a{
 		border-radius: 30px 30px 0px 0px;
 	}
 
-	#badValg{
-		text-align: left;
-		padding: 0px 20px;
-	}
-	
 	#badValg h2{
 		margin: 10px 0px 5px;
 	}
@@ -586,126 +575,35 @@ footer a{
 		grid-template-columns: auto auto auto auto;
 		padding-bottom: 25px;
 	}
-	
-	#bIndOvn{
-		border: 2px solid #A68876;
-		border-radius: 15px;
-		padding: 10px;
-		background: #FFFFFF;
-		color: #A68876;
-		cursor: pointer;
+
+	#guidesA{
+		margin: 0px 250px;
 	}
 
-	#bUdOvn{
-		border: 2px solid #A68876;
-		border-radius: 15px;
-		padding: 10px;
-		background: #A68876;
-		color: #FFFFFF;
-		cursor: pointer;
+	#guide1{
+		width: 400px;
 	}
 
-	#ovnCheck{
-		cursor: pointer;
-		margin-top: 15px;
+	#guide2{
+		width: 400px;
 	}
 
-	#bIngenD{
-		border: 2px solid #A68876;
-		border-radius: 15px;
-		padding: 10px;
-		background: #A68876;
-		color: #FFFFFF;
-		cursor: pointer;
+	.omInfo{
+		margin: 0px 250px 100px;
 	}
 
-	#bLuftD{
-		border: 2px solid #A68876;
-		border-radius: 15px;
-		padding: 10px;
-		background: #FFFFFF;
-		color: #A68876;
-		cursor: pointer;
+	.kontakt{
+		text-align: center;
+		margin: 50px 0px 212.5px;
 	}
 
-	#bVandD{
-		border: 2px solid #A68876;
-		border-radius: 15px;
-		padding: 10px;
-		background: #FFFFFF;
-		color: #A68876;
-		cursor: pointer;
+	.kontaktInfo{
+		margin: 0px 250px 100px;
 	}
-
-	#bBeggeD{
-		border: 2px solid #A68876;
-		border-radius: 15px;
-		padding: 10px;
-		background: #FFFFFF;
-		color: #A68876;
-		cursor: pointer;
-		margin: 2px;
-	}
-
-	#bBrunT{
-		border: 2px solid #1D5FE1;
-		border-radius: 50px;
-		padding: 7.5px 10px;
-		background: #FDBC7B;
-		color: #FDBC7D;
-		cursor: pointer;
-	}
-
-	#bSortT{
-		border: 2px solid black;
-		border-radius: 50px;
-		padding: 7.5px 10px;
-		background: black;
-		cursor: pointer;
-	}
-
-	#bKarH{
-		border: 2px solid #1D5FE1;
-		border-radius: 50px;
-		padding: 7.5px 10px;
-		background: white;
-		color: white;
-		cursor: pointer;
-	}
-
-	#bKarS{
-		border: 2px solid black;
-		border-radius: 50px;
-		padding: 7.5px 10px;
-		background: black;
-		cursor: pointer;
-	}
-
-	#bKarG{
-		border: 2px solid #515E71;
-		border-radius: 50px;
-		padding: 7.5px 10px;
-		background: #515E71;
-		color: #515E71;
-		cursor: pointer;
-	}
-
-	#bKarR{
-		border: 2px solid #A12A2C;
-		border-radius: 50px;
-		padding: 7.5px 10px;
-		background: #A12A2C;
-		color: #A12A2C;
-		cursor: pointer;
-	}
-	
 }
 
 @media screen and (max-width: 1024px){
 	header{
-		display: flex;
-		text-align: center;
-		justify-content: space-between;
 		margin: 0px 125px;
 	}
 
@@ -720,51 +618,18 @@ footer a{
 	}
 
 	nav button{
-		margin: 0px;
 		padding: 10px 5px 0px;
-		border-style: none;
-		background: none;
 		font-size: 20px;
 		font-weight: 600;
-		color: #3f3f3f;
-	}
-
-	nav button:hover{
-		color: #2f618b;
-		cursor: pointer;
-	}
-
-	#aktivB{
-		color: #2f618b;
-	}
-
-	footer{
-		background: white;
-		text-align: center;
-		margin: 100px 0px 0px;
-	}
-
-	footer a{
-		text-decoration: none;
-		color: #2F618B;
 	}
 
 	.ftInfo{
-		display: grid;
-		justify-content: space-between;
-		grid-template-columns: auto auto auto;
-		gap: 10px;
 		margin: 0px 125px;
 		padding: 10px 0px;
 	}
 
-	#ft1{
-		text-align: left;
-		width: 275px;
-	}
-
 	#ft2{
-		margin: 10px 0px;
+		margin: 15px 0px;
 	}
 
 	#ft2 p{
@@ -772,143 +637,22 @@ footer a{
 		margin: 0px 5px;
 	}
 
-	#ft3{
-		text-align: right;
-	}
-
-	.forside{
-		text-align: center;
-		margin-top: 50px;
-	}
-
 	.forIntro{
-		display: grid;
-		justify-content: space-between;
-		grid-template-columns: auto auto;
-		gap: 10px;
-		text-align: left;
 		margin: 20px 125px;
 	}
 
-	#forIntro1 h1{
-		color: #3f3f3f;
-		font-size: 40px;
-	}
-
-	#forIntro1 p{
-		font-size: 25px;
-		color: #3f3f3f
-	}
-
 	#forIntro1 button{
-		background: #A68876;
-		color: white;
-		border: none;
-		border-radius: 30px;
 		font-size: 22.5px;
 		padding: 15px;
-		cursor: pointer;
-	}
-
-	#forIntro2{
-		background: white;
-		padding: 0px 25px;
-		border-radius: 30px;
-		width: 350px;
-	}
-
-	#forIntro2 p{
-		font-size: 25px;
-		color: #a68876;
-	}
-
-	#navn{
-		width: 335px;
-		height: 35px;
-		font-size: 15px;
-		border-radius: 10px;
-		border: 2px solid #A0A0A0;
-		background: #F3F3F3;
-		padding: 0px 5px;
-	}
-
-	#mail{
-		width: 335px;
-		height: 35px;
-		font-size: 15px;
-		border-radius: 10px;
-		border: 2px solid #A0A0A0;
-		background: #F3F3F3;
-		padding: 0px 5px;
-	}
-
-	#telNum{
-		width: 335px;
-		height: 35px;
-		font-size: 15px;
-		border-radius: 10px;
-		border: 2px solid #A0A0A0;
-		background: #F3F3F3;
-		padding: 0px 5px;
-	}
-
-	#besked{
-		width: 335px;
-		height: 85px;
-		font-size: 15px;
-		border-radius: 10px;
-		border: 2px solid #A0A0A0;
-		background: #F3F3F3;
-		padding: 5px 5px;
-		resize: none;
-		font-family: "Open Sans";
-	}
-
-	#forIntro2 button{
-		background: #A68876;
-		color: white;
-		font-size: 17px;
-		border: none;
-		border-radius: 20px;
-		padding: 10px;
-		margin: 10px 0px 25px;
-		cursor: pointer;
 	}
 
 	.punkter{
-		display: grid;
-		justify-content: space-between;
-		grid-template-columns: auto auto auto;
-		gap: 10px;
-		margin: 150px 125px 25px;
+		margin: 50px 125px 25px;
 	}
 
 	.punkter div{
 		width: 200px;
-		height: 250px;
-		background: white;
-		padding: 25px 15px;
-		border-radius: 30px;
-	}
-
-	.punkter h2{
-		color: #A68876;
-	}
-
-	.forside button{
-		border: none;
-		border-radius: 25px;
-		background: #A68876;
-		color: white;
-		font-size: 20px;
-		padding: 15px;
-		margin: 50px 0px;
-		cursor: pointer;
-	}
-
-	.bade{
-		text-align: center;
-		margin: 50px 0px 115px;
+		height: 275px;
 	}
 
 	.badeSamling{
@@ -920,6 +664,7 @@ footer a{
 		background: white;
 		border-radius: 30px;
 		height: auto;
+		color: #3f3f3f;
 	}
 
 	.badeSamling img{
@@ -928,173 +673,46 @@ footer a{
 		border-radius: 30px 30px 0px 0px;
 	}
 	
-	#badValg{
-		text-align: left;
-		padding: 0px 20px;
-	}
-
-	#bIndOvn{
-		border: 2px solid #A68876;
-		border-radius: 15px;
-		padding: 10px;
-		background: #FFFFFF;
-		color: #A68876;
-		cursor: pointer;
-	}
-	
-	#bUdOvn{
-		border: 2px solid #A68876;
-		border-radius: 15px;
-		padding: 10px;
-		background: #A68876;
-		color: #FFFFFF;
-		cursor: pointer;
-	}
-
-	#ovnCheck{
-		cursor: pointer;
-		margin-top: 15px;
-	}
-
 	#bIngenD{
-		border: 2px solid #A68876;
-		border-radius: 15px;
-		padding: 10px;
-		background: #A68876;
-		color: #FFFFFF;
-		cursor: pointer;
+		margin-bottom: 5px;
 	}
 
 	#bLuftD{
-		border: 2px solid #A68876;
-		border-radius: 15px;
-		padding: 10px;
-		background: #FFFFFF;
-		color: #A68876;
-		cursor: pointer;
+		margin-bottom: 5px;
 	}
 
 	#bVandD{
-		border: 2px solid #A68876;
-		border-radius: 15px;
-		padding: 10px;
-		background: #FFFFFF;
-		color: #A68876;
-		cursor: pointer;
+		margin-bottom: 5px;
 	}
 
 	#bBeggeD{
-		border: 2px solid #A68876;
-		border-radius: 15px;
-		padding: 10px;
-		background: #FFFFFF;
-		color: #A68876;
-		cursor: pointer;
 		margin: 2px;
 	}
 
-	#bBrunT{
-		border: 2px solid #1D5FE1;
-		border-radius: 50px;
-		padding: 7.5px 10px;
-		background: #FDBC7B;
-		color: #FDBC7D;
-		cursor: pointer;
-	}
-
-	#bSortT{
-		border: 2px solid black;
-		border-radius: 50px;
-		padding: 7.5px 10px;
-		background: black;
-		cursor: pointer;
-	}
-
-	#bKarH{
-		border: 2px solid #1D5FE1;
-		border-radius: 50px;
-		padding: 7.5px 10px;
-		background: white;
-		color: white;
-		cursor: pointer;
-	}
-
-	#bKarS{
-		border: 2px solid black;
-		border-radius: 50px;
-		padding: 7.5px 10px;
-		background: black;
-		cursor: pointer;
-	}
-
-	#bKarG{
-		border: 2px solid #515E71;
-		border-radius: 50px;
-		padding: 7.5px 10px;
-		background: #515E71;
-		color: #515E71;
-		cursor: pointer;
-	}
-
-	#bKarR{
-		border: 2px solid #A12A2C;
-		border-radius: 50px;
-		padding: 7.5px 10px;
-		background: #A12A2C;
-		color: #A12A2C;
-		cursor: pointer;
-	}
-
-	.guides{
-		text-align: center;
-		margin-top: 50px;
-	}	
-
-	.guidesTabs{
-		display: grid;
-		justify-content: space-around;
-		grid-template-columns: auto auto;
-		gap: 10px;
+	#guidesA{
 		margin: 0px 125px;
-		background: white;
-		padding: 25px;
-		border-radius: 30px;
 	}
 
 	#guide1{
-		border: 1px solid #EFEFEF;
-		border-radius: 30px;
-		width: 250px;
+		width: 300px;
 	}
-
-	#guide1 p{
-		padding-bottom: 10px;
+	
+	#guide1 img{
+		width: 300px;
+		height: 150px;
 	}
 
 	#guide2{
-		border: 1px solid #EFEFEF;
-		border-radius: 30px;
-		width: 250px;
+		width: 300px;
 	}
-
-	#guide2 p{
-		padding-bottom: 10px;
-	}
-
-	.omOs{
-		text-align: center;
-		margin-top: 50px;
+	
+	#guide2 img{
+		width: 300px;
+		height: 150px;
 	}
 
 	.omInfo{
 		margin: 0px 125px 100px;
-		display: grid;
-		justify-content: space-around;
-		grid-template-columns: auto auto;
-		gap: 10px;
-		background: white;
-		padding: 25px;
-		border-radius: 30px;
 	}
 	
 	.omInfo img{
@@ -1108,24 +726,8 @@ footer a{
 		width: 400px;
 	}
 
-	.omOs h1{
-		color: #3F3F3F;
-	}
-
-	.kontakt{
-		text-align: center;
-		margin: 50px 0px 162px;
-	}
-
 	.kontaktInfo{
 		margin: 0px 125px 100px;
-		display: grid;
-		justify-content: space-around;
-		grid-template-columns: auto auto;
-		gap: 10px;
-		background: white;
-		padding: 25px;
-		border-radius: 30px;
 	}
 
 	#kontaktInfo1{
@@ -1135,77 +737,30 @@ footer a{
 
 	#navnK{
 		width: 350px;
-		height: 35px;
-		font-size: 15px;
-		border-radius: 10px;
-		border: 2px solid #A0A0A0;
-		background: #F3F3F3;
-		padding: 0px 5px;
 	}
 
 	#mailK{
 		width: 350px;
-		height: 35px;
-		font-size: 15px;
-		border-radius: 10px;
-		border: 2px solid #A0A0A0;
-		background: #F3F3F3;
-		padding: 0px 5px;
 	}
 
 	#telNumK{
 		width: 350px;
-		height: 35px;
-		font-size: 15px;
-		border-radius: 10px;
-		border: 2px solid #A0A0A0;
-		background: #F3F3F3;
-		padding: 0px 5px;
 	}
 
 	#beskedK{
 		width: 350px;
-		height: 75px;
-		font-size: 15px;
-		border-radius: 10px;
-		border: 2px solid #A0A0A0;
-		background: #F3F3F3;
-		padding: 5px 5px;
-		resize: none;
-		font-family: "Open Sans";
-	}
-
-	#kontaktInfo1 button{
-		background: #A68876;
-		color: white;
-		font-size: 17px;
-		border: none;
-		border-radius: 20px;
-		padding: 10px;
-		margin: 5px 0px 25px;
-		cursor: pointer;
 	}
 
 	#kontaktInfo2{
-		text-align: left;
 		width: 300px;
 	}
 
 	#kontaktInfoR{
 		width: 300px;
-		border-bottom: 2px solid #A68876;
-	}
-
-	#kI2Num{
-		color: #A68876;
 	}
 
 	#kontaktInfoM{
 		width: 300px;
-	}
-
-	#kI2Mail{
-		color: #A68876;
 	}
 }
 
@@ -1230,31 +785,8 @@ footer a{
 	nav button{
 		margin: 0px;
 		padding: 5px 5px 0px;
-		border-style: none;
-		background: none;
 		font-size: 20px;
 		font-weight: 600;
-		color: #3f3f3f;
-	}
-
-	nav button:hover{
-		color: #2f618b;
-		cursor: pointer;
-	}
-
-	#aktivB{
-		color: #2f618b;
-	}
-
-	footer{
-		background: white;
-		text-align: center;
-		margin: 100px 0px 0px;
-	}
-
-	footer a{
-		text-decoration: none;
-		color: #2F618B;
 	}
 
 	.ftInfo{
@@ -1275,18 +807,8 @@ footer a{
 		margin: 10px 0px;
 	}
 
-	#ft2 p{
-		display: inline-block;
-		margin: 0px 5px;
-	}
-
-	#ft3{
-		text-align: right;
-	}
-
 	.forside{
-		text-align: center;
-		margin-top: 50px;
+		margin-top: 25px;
 	}
 
 	.forIntro{
@@ -1298,89 +820,33 @@ footer a{
 		margin: 20px 50px;
 	}
 
-	#forIntro1 h1{
-		color: #3f3f3f;
-		font-size: 40px;
-	}
-
-	#forIntro1 p{
-		font-size: 25px;
-		color: #3f3f3f
-	}
-
 	#forIntro1 button{
-		background: #A68876;
-		color: white;
-		border: none;
-		border-radius: 30px;
 		font-size: 19px;
 		padding: 15px;
-		cursor: pointer;
 	}
 
 	#forIntro2{
-		background: white;
-		padding: 0px 25px;
-		border-radius: 30px;
 		width: 250px;
 	}
 
 	#forIntro2 p{
 		font-size: 25px;
-		color: #a68876;
 	}
 
 	#navn{
 		width: 230px;
-		height: 35px;
-		font-size: 15px;
-		border-radius: 10px;
-		border: 2px solid #A0A0A0;
-		background: #F3F3F3;
-		padding: 0px 5px;
 	}
 
 	#mail{
 		width: 230px;
-		height: 35px;
-		font-size: 15px;
-		border-radius: 10px;
-		border: 2px solid #A0A0A0;
-		background: #F3F3F3;
-		padding: 0px 5px;
 	}
 
 	#telNum{
 		width: 230px;
-		height: 35px;
-		font-size: 15px;
-		border-radius: 10px;
-		border: 2px solid #A0A0A0;
-		background: #F3F3F3;
-		padding: 0px 5px;
 	}
 
 	#besked{
 		width: 230px;
-		height: 85px;
-		font-size: 15px;
-		border-radius: 10px;
-		border: 2px solid #A0A0A0;
-		background: #F3F3F3;
-		padding: 5px 5px;
-		resize: none;
-		font-family: "Open Sans";
-	}
-
-	#forIntro2 button{
-		background: #A68876;
-		color: white;
-		font-size: 17px;
-		border: none;
-		border-radius: 20px;
-		padding: 10px;
-		margin: 10px 0px 25px;
-		cursor: pointer;
 	}
 
 	.punkter{
@@ -1388,35 +854,16 @@ footer a{
 		justify-content: space-between;
 		grid-template-columns: auto;
 		gap: 25px;
-		margin: 100px 85px 25px;
+		margin: 25px 85px 25px;
 	}
 
 	.punkter div{
 		width: 200px;
-		height: 250px;
-		background: white;
-		padding: 25px 15px;
-		border-radius: 30px;
-	}
-
-	.punkter h2{
-		color: #A68876;
-	}
-
-	.forside button{
-		border: none;
-		border-radius: 25px;
-		background: #A68876;
-		color: white;
-		font-size: 20px;
-		padding: 15px;
-		margin: 50px 0px;
-		cursor: pointer;
+		height: 275px;
 	}
 
 	.bade{
-		text-align: center;
-		margin: 50px 0px 115px;
+		margin: 75px 0px 115px;
 	}
 
 	.badeSamling{
@@ -1425,8 +872,6 @@ footer a{
 		grid-template-columns: auto;
 		gap: 10px;
 		margin: 0px 25px;
-		background: white;
-		border-radius: 30px;
 		height: auto;
 	}
 
@@ -1446,121 +891,9 @@ footer a{
 		padding: 0px 20px;
 	}
 
-	#bIndOvn{
-		border: 2px solid #A68876;
-		border-radius: 15px;
-		padding: 10px;
-		background: #FFFFFF;
-		color: #A68876;
-		cursor: pointer;
-	}
-	
-	#bUdOvn{
-		border: 2px solid #A68876;
-		border-radius: 15px;
-		padding: 10px;
-		background: #A68876;
-		color: #FFFFFF;
-		cursor: pointer;
-	}
-
-	#ovnCheck{
-		cursor: pointer;
-		margin-top: 15px;
-	}
-
-	#bIngenD{
-		border: 2px solid #A68876;
-		border-radius: 15px;
-		padding: 10px;
-		background: #A68876;
-		color: #FFFFFF;
-		cursor: pointer;
-	}
-
-	#bLuftD{
-		border: 2px solid #A68876;
-		border-radius: 15px;
-		padding: 10px;
-		background: #FFFFFF;
-		color: #A68876;
-		cursor: pointer;
-	}
-
-	#bVandD{
-		border: 2px solid #A68876;
-		border-radius: 15px;
-		padding: 10px;
-		background: #FFFFFF;
-		color: #A68876;
-		cursor: pointer;
-	}
-
-	#bBeggeD{
-		border: 2px solid #A68876;
-		border-radius: 15px;
-		padding: 10px;
-		background: #FFFFFF;
-		color: #A68876;
-		cursor: pointer;
-		margin: 2px;
-	}
-
-	#bBrunT{
-		border: 2px solid #1D5FE1;
-		border-radius: 50px;
-		padding: 7.5px 10px;
-		background: #FDBC7B;
-		color: #FDBC7D;
-		cursor: pointer;
-	}
-
-	#bSortT{
-		border: 2px solid black;
-		border-radius: 50px;
-		padding: 7.5px 10px;
-		background: black;
-		cursor: pointer;
-	}
-
-	#bKarH{
-		border: 2px solid #1D5FE1;
-		border-radius: 50px;
-		padding: 7.5px 10px;
-		background: white;
-		color: white;
-		cursor: pointer;
-	}
-
-	#bKarS{
-		border: 2px solid black;
-		border-radius: 50px;
-		padding: 7.5px 10px;
-		background: black;
-		cursor: pointer;
-	}
-
-	#bKarG{
-		border: 2px solid #515E71;
-		border-radius: 50px;
-		padding: 7.5px 10px;
-		background: #515E71;
-		color: #515E71;
-		cursor: pointer;
-	}
-
-	#bKarR{
-		border: 2px solid #A12A2C;
-		border-radius: 50px;
-		padding: 7.5px 10px;
-		background: #A12A2C;
-		color: #A12A2C;
-		cursor: pointer;
-	}
-
 	.guides{
 		text-align: center;
-		margin-top: 50px;
+		margin-top: 75px;
 	}	
 
 	.guidesTabs{
@@ -1568,35 +901,32 @@ footer a{
 		justify-content: space-around;
 		grid-template-columns: auto;
 		gap: 25px;
+	}
+	
+	#guidesA{
 		margin: 0px 50px;
-		background: white;
-		padding: 25px;
-		border-radius: 30px;
 	}
 
 	#guide1{
-		border: 1px solid #EFEFEF;
-		border-radius: 30px;
-		width: 250px;
+		width: 225px;
 	}
-
-	#guide1 p{
-		padding-bottom: 10px;
+	
+	#guide1 img{
+		width: 225px;
+		height: 125px;
 	}
 
 	#guide2{
-		border: 1px solid #EFEFEF;
-		border-radius: 30px;
-		width: 250px;
+		width: 225px;
 	}
-
-	#guide2 p{
-		padding-bottom: 10px;
+	
+	#guide2 img{
+		width: 225px;
+		height: 125px;
 	}
 
 	.omOs{
-		text-align: center;
-		margin-top: 50px;
+		margin-top: 75px;
 	}
 
 	.omInfo{
@@ -1613,21 +943,18 @@ footer a{
 	.omInfo img{
 		width: 250px;
 		height: 250px;
-		border-radius: 30px;
 	}
 
 	#omInfo1{
-		text-align: left;
 		width: 255px;
 	}
 
 	.omOs h1{
-		color: #3F3F3F;
+		margin-top: 0px;
 	}
 
 	.kontakt{
-		text-align: center;
-		margin: 50px 0px 162px;
+		margin: 75px 0px 162px;
 	}
 
 	.kontaktInfo{
@@ -1642,62 +969,32 @@ footer a{
 	}
 
 	#kontaktInfo1{
-		text-align: left;
 		width: 250px;
 		padding: 0px 25px;
+	}
+	
+	#kontaktInfo1 h2{
+		margin-top: 0px;
 	}
 
 	#navnK{
 		width: 225px;
-		height: 35px;
-		font-size: 15px;
-		border-radius: 10px;
-		border: 2px solid #A0A0A0;
-		background: #F3F3F3;
-		padding: 0px 5px;
 	}
 
 	#mailK{
 		width: 225px;
-		height: 35px;
-		font-size: 15px;
-		border-radius: 10px;
-		border: 2px solid #A0A0A0;
-		background: #F3F3F3;
-		padding: 0px 5px;
 	}
 
 	#telNumK{
 		width: 225px;
-		height: 35px;
-		font-size: 15px;
-		border-radius: 10px;
-		border: 2px solid #A0A0A0;
-		background: #F3F3F3;
-		padding: 0px 5px;
 	}
 
 	#beskedK{
 		width: 225px;
-		height: 75px;
-		font-size: 15px;
-		border-radius: 10px;
-		border: 2px solid #A0A0A0;
-		background: #F3F3F3;
-		padding: 5px 5px;
-		resize: none;
-		font-family: "Open Sans";
 	}
 
 	#kontaktInfo1 button{
-		background: #A68876;
-		color: white;
-		font-size: 17px;
-		border: none;
-		border-radius: 20px;
-		padding: 10px;
 		margin: 5px 0px 25px;
-		cursor: pointer;
 	}
 
 	#kontaktInfo2{
@@ -1708,18 +1005,9 @@ footer a{
 
 	#kontaktInfoR{
 		width: 250px;
-		border-bottom: 2px solid #A68876;
-	}
-
-	#kI2Num{
-		color: #A68876;
 	}
 
 	#kontaktInfoM{
 		width: 250px;
-	}
-
-	#kI2Mail{
-		color: #A68876;
 	}
 }
