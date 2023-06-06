@@ -7,17 +7,7 @@ function udOvn() {
 	document.getElementById("bIndOvn").style.color = "#A68876";
 	
 	var image = document.getElementById("bImg");
-	if(image.src.match("Endelige/1&3/Indvendig/1I.png")){
-		image.src = "Endelige/1&3/Udvendig/1U.png";
-	} else if(image.src.match("Endelige/2&4/Indvendig/Uden/2IU.png")){
-		image.src = "Endelige/2&4/Udvendig/Uden/2UU.png";
-	} else if(image.src.match("Endelige/2&4/Indvendig/Luft/2IL.png")){
-		image.src = "Endelige/2&4/Udvendig/Luft/2UL.png";
-	} else if(image.src.match("Endelige/2&4/Indvendig/Vand/2IV.png")){
-		image.src = "Endelige/2&4/Udvendig/Vand/2UV.png";	  
-	} else if(image.src.match("Endelige/2&4/Indvendig/Alle/2IA.png")){
-		image.src = "Endelige/2&4/Udvendig/Alle/2UA.png";
-	} else if(image.src.match("Endelige/1&3/Indvendig/1I.png") || image.src.match("Endelige/2&4/Indvendig/Uden/2IU.png") || image.src.match("Endelige/2&4/Indvendig/Luft/2IL.png") || image.src.match("Endelige/2&4/Indvendig/Vand/2IV.png") || image.src.match("Endelige/2&4/Indvendig/Alle/2IA.png")){
+	if(image.src.match("Endelige/1&3/Indvendig/1I.png") || image.src.match("Endelige/2&4/Indvendig/Uden/2IU.png") || image.src.match("Endelige/2&4/Indvendig/Luft/2IL.png") || image.src.match("Endelige/2&4/Indvendig/Vand/2IV.png") || image.src.match("Endelige/2&4/Indvendig/Alle/2IA.png")){
 		image.src = "Endelige/1&3/Udvendig/1U.png";
 	} else if(image.src.match("Endelige/1&3/Indvendig/1IBS.png") || image.src.match("Endelige/2&4/Indvendig/Uden/2IUBS.png") || image.src.match("Endelige/2&4/Indvendig/Luft/2ILBS.png") || image.src.match("Endelige/2&4/Indvendig/Vand/2IVBS.png") || image.src.match("Endelige/2&4/Indvendig/Alle/2IABS.png")){
 		image.src = "Endelige/1&3/Udvendig/1UBS.png";
@@ -25,7 +15,8 @@ function udOvn() {
 		image.src = "Endelige/1&3/Udvendig/1UBG.png";
 	} else if(image.src.match("Endelige/1&3/Indvendig/1IBR.png") || image.src.match("Endelige/2&4/Indvendig/Uden/2IUBR.png") || image.src.match("Endelige/2&4/Indvendig/Luft/2ILBR.png") || image.src.match("Endelige/2&4/Indvendig/Vand/2IVBR.png") || image.src.match("Endelige/2&4/Indvendig/Alle/2IABR.png")){
 		image.src = "Endelige/1&3/Udvendig/1UBR.png";
-	} else if(image.src.match("Endelige/1&3/Indvendig/1ISH.png") || image.src.match("Endelige/2&4/Indvendig/Uden/2IUSH.png") || image.src.match("Endelige/2&4/Indvendig/Luft/2ILSH.png") || image.src.match("Endelige/2&4/Indvendig/Vand/2IVSH.png") || image.src.match("Endelige/2&4/Indvendig/Alle/2IASH.png")){
+	} 
+	else if(image.src.match("Endelige/1&3/Indvendig/1ISH.png") || image.src.match("Endelige/2&4/Indvendig/Uden/2IUSH.png") || image.src.match("Endelige/2&4/Indvendig/Luft/2ILSH.png") || image.src.match("Endelige/2&4/Indvendig/Vand/2IVSH.png") || image.src.match("Endelige/2&4/Indvendig/Alle/2IASH.png")){
 		image.src = "Endelige/1&3/Udvendig/1USH.png";
 	} else if(image.src.match("Endelige/1&3/Indvendig/1ISS.png") || image.src.match("Endelige/2&4/Indvendig/Uden/2IUSS.png") || image.src.match("Endelige/2&4/Indvendig/Luft/2ILSS.png") || image.src.match("Endelige/2&4/Indvendig/Vand/2IVSS.png") || image.src.match("Endelige/2&4/Indvendig/Alle/2IASS.png")){
 		image.src = "Endelige/1&3/Udvendig/1USS.png"
@@ -43,17 +34,7 @@ function indOvn() {
 	document.getElementById("bUdOvn").style.color = "#A68876";
 	
 	var image = document.getElementById("bImg");
-	if(image.src.match("Endelige/1&3/Udvendig/1U.png")){
-		image.src = "Endelige/1&3/Indvendig/1I.png";
-	} else if (image.src.match("Endelige/2&4/Udvendig/Uden/2UU.png")){
-		image.src = "Endelige/2&4/Indvendig/Uden/2IU.png";
-	} else if(image.src.match("Endelige/2&4/Udvendig/Luft/2UL.png")){
-		image.src = "Endelige/2&4/Indvendig/Luft/2IL.png";
-	} else if(image.src.match("Endelige/2&4/Udvendig/Vand/2UV.png")){
-		image.src = "Endelige/2&4/Indvendig/Vand/2IV.png";	  
-	} else if(image.src.match("Endelige/2&4/Udvendig/Alle/2UA.png")){
-		image.src = "Endelige/2&4/Indvendig/Alle/2IA.png";
-	} else if(image.src.match("Endelige/1&3/Udvendig/1U.png") || image.src.match("Endelige/2&4/Udvendig/Uden/2UU.png") || image.src.match("Endelige/2&4/Udvendig/Luft/2UL.png") || image.src.match("Endelige/2&4/Udvendig/Vand/2UV.png") || image.src.match("Endelige/2&4/Udvendig/Alle/2UA.png")){
+	if(image.src.match("Endelige/1&3/Udvendig/1U.png") || image.src.match("Endelige/2&4/Udvendig/Uden/2UU.png") || image.src.match("Endelige/2&4/Udvendig/Luft/2UL.png") || image.src.match("Endelige/2&4/Udvendig/Vand/2UV.png") || image.src.match("Endelige/2&4/Udvendig/Alle/2UA.png")){
 		image.src = "Endelige/1&3/Indvendig/1I.png";
 	} else if(image.src.match("Endelige/1&3/Udvendig/1UBS.png") || image.src.match("Endelige/2&4/Udvendig/Uden/2UUBS.png") || image.src.match("Endelige/2&4/Udvendig/Luft/2ULBS.png") || image.src.match("Endelige/2&4/Udvendig/Vand/2UVBS.png") || image.src.match("Endelige/2&4/Udvendig/Alle/2UABS.png")){
 		image.src = "Endelige/1&3/Indvendig/1IBS.png";
@@ -61,7 +42,8 @@ function indOvn() {
 		image.src = "Endelige/1&3/Indvendig/1IBG.png";
 	} else if(image.src.match("Endelige/1&3/Udvendig/1UBR.png") || image.src.match("Endelige/2&4/Udvendig/Uden/2UUBR.png") || image.src.match("Endelige/2&4/Udvendig/Luft/2ULBR.png") || image.src.match("Endelige/2&4/Udvendig/Vand/2UVBR.png") || image.src.match("Endelige/2&4/Udvendig/Alle/2UABR.png")){
 		image.src = "Endelige/1&3/Indvendig/1IBR.png";
-	} else if(image.src.match("Endelige/1&3/Udvendig/1USH.png") || image.src.match("Endelige/2&4/Udvendig/Uden/2UUSH.png") || image.src.match("Endelige/2&4/Udvendig/Luft/2ULSH.png") || image.src.match("Endelige/2&4/Udvendig/Vand/2UVSH.png") || image.src.match("Endelige/2&4/Udvendig/Alle/2UASH.png")){
+	} 
+	else if(image.src.match("Endelige/1&3/Udvendig/1USH.png") || image.src.match("Endelige/2&4/Udvendig/Uden/2UUSH.png") || image.src.match("Endelige/2&4/Udvendig/Luft/2ULSH.png") || image.src.match("Endelige/2&4/Udvendig/Vand/2UVSH.png") || image.src.match("Endelige/2&4/Udvendig/Alle/2UASH.png")){
 		image.src = "Endelige/1&3/Indvendig/1ISH.png";
 	} else if(image.src.match("Endelige/1&3/Udvendig/1USS.png") || image.src.match("Endelige/2&4/Udvendig/Uden/2UUSS.png") || image.src.match("Endelige/2&4/Udvendig/Luft/2ULSS.png") || image.src.match("Endelige/2&4/Udvendig/Vand/2UVSS.png") || image.src.match("Endelige/2&4/Udvendig/Alle/2UASS.png")){
 		image.src = "Endelige/1&3/Indvendig/1ISS.png"
