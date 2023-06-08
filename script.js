@@ -140,8 +140,6 @@ function luftD() {
 		image.src = "Endelige/2&4/Indvendig/Luft/2ILBS.png";
 	} else if (image.src.match("Endelige/1&3/Indvendig/1IBG.png") || image.src.match("Endelige/2&4/Indvendig/Uden/2IUBG.png") || image.src.match("Endelige/2&4/Indvendig/Vand/2IVBG.png") || image.src.match("Endelige/2&4/Indvendig/Alle/2IABG.png")){
 		image.src = "Endelige/2&4/Indvendig/Luft/2ILBG.png";
-	} else if (image.src.match("Endelige/1&3/Indvendig/1IBR.png") || image.src.match("Endelige/2&4/Indvendig/Uden/2IUBR.png") || image.src.match("Endelige/2&4/Indvendig/Vand/2IVBG.png") || image.src.match("Endelige/2&4/Indvendig/Alle/2IABG.png")){
-		image.src = "Endelige/2&4/Indvendig/Luft/2ILBG.png";
 	} else if (image.src.match("Endelige/1&3/Indvendig/1IBR.png") || image.src.match("Endelige/2&4/Indvendig/Uden/2IUBR.png") || image.src.match("Endelige/2&4/Indvendig/Vand/2IVBR.png") || image.src.match("Endelige/2&4/Indvendig/Alle/2IABR.png")){
 		image.src = "Endelige/2&4/Indvendig/Luft/2ILBR.png";
 	}
