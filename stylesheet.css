@@ -326,7 +326,7 @@ footer a{
 	background: #FDBC7B;
 	color: #FDBC7D;
 	cursor: pointer;
-	margin-top: -10px;
+	margin-top: -15px;
 	margin-bottom: 10px;
 }
 
@@ -336,7 +336,7 @@ footer a{
 	padding: 7.5px 10px;
 	background: black;
 	cursor: pointer;
-	margin-top: -10px;
+	margin-top: -15px;
 	margin-bottom: 10px;
 }
 
@@ -394,6 +394,17 @@ footer a{
 
 #indholdMac b{
 	font-weight: bold;
+}
+
+#kurvDesk{
+	margin-left: 230px;
+	margin-top: -15px;
+	background: #50ad55;		
+	color: white;
+	border: 2px solid #50ad55;
+	border-radius: 15px;
+	padding: 10px;
+	cursor: pointer;
 }
 
 .guides{
@@ -638,10 +649,23 @@ footer a{
 		display: none;
 	}
 	
+	#kurvDesk{
+		display: none;
+	}
+	
 	#indholdMac{
-		display: inline-block;
-		margin: -10px 0px 0px;
-		padding-bottom: 5px;
+		display: flex;
+		margin: -10px 0px 10px;
+	}
+	
+	#kurvMac{
+		margin: 10px 0px 10px 150px;
+		background: #50ad55;
+		color: white;
+		border: none;
+		border-radius: 30px;
+		padding: 5px 10px;
+		cursor: pointer;
 	}
 
 	#guidesA{
